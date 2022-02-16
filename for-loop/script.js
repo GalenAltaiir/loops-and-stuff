@@ -128,22 +128,22 @@ output2.innerHTML += "<br> The following numbers were NOT even numbers " + oddie
 // EX 9 (Prime Numbers from 0 to N)
 
 
-/* let n = window.prompt("How many prime numbers?")
+/*  let n = window.prompt("How many prime numbers?")
  
 
-const primes = [];
+let primes = [];
       
-loop1:
+firstLoop:
       for (let j = 0; primes.length < n; j++) {
        for(let i = 2; i < j; i++){
         if(j % i === 0){
-            continue loop1;
+            continue firstLoop;
         }
       }
       if(j>1) primes.push(j);
       }
-output2.innerHTML = primes; */
-
+output2.innerHTML = primes; 
+ */
 
 
 // EX 10 JS conditional to find the largest number from 5 numbers. Display alert box to show the result
